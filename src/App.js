@@ -33,8 +33,7 @@ function App() {
   return (
     <Container className="mt-3 mb-3 bg-info">
       <div className="p-3 text-center ">
-        <h1 className="text-white">Jadwal</h1>
-        <h1 className="text-white">Imsakiyah</h1>
+        <h1 className="text-white">Jadwal Imsyakiyah</h1>
         <h2 className="text-white">Kota Depok</h2>
         <h2 className="text-white">Jawa Barat</h2>
         <h2 className="text-white">Ramadhan 1443 H/2022 M</h2>
