@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <h1 className="text-center text-primary">Loading</h1>;
+    return <h1 className="text-center text-primary">Loading ...</h1>;
   }
   if (error) {
     console.error("Error because", error);
