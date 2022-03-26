@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Container, Row, Col, Table } from "react-bootstrap";
+import "./App.css";
 
 function App() {
   const [times, setTimes] = useState([]);
@@ -25,7 +26,12 @@ function App() {
   }, []);
 
   if (loading) {
-    return <h1 className="text-center text-primary">Loading ...</h1>;
+    return (
+      <div className="d-flex flex-column justify-content-center align-items-center main">
+        <div className="box"></div>
+        <h1 className="text-center text-primary">Loading ...</h1>
+      </div>
+    );
   }
   if (error) {
     console.error("Error because", error);
