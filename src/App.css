@@ -16,7 +16,6 @@
   left: 3px;
   right: 1px;
   bottom: 3px;
-  clip-path: circle(50% at 50% 50%);
   background: #fff;
   border-radius: 10px;
 }
@@ -24,12 +23,10 @@
   content: "";
   position: absolute;
   top: -10%;
-  left: -20%;
+  left: -10%;
   right: -10%;
-  bottom: -20%;
+  bottom: -10%;
   background: rgb(41, 216, 114);
-  /* clip-path: polygon(0 0, 0 100%, 100% 0, 100% 100%); */
-  /* clip-path: (0 0, 50% at 50% 50%); */
   animation: rotate 2s linear infinite;
 }
 @keyframes rotate {
